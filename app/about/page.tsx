@@ -86,8 +86,8 @@ export default function Home() {
               <p className="text-xl">Neon Genisis Evangelion</p>
             </div>
             <div>
-              <p className="text-xs">Hajime Isayama</p>
-              <p className="text-xl">Attack on Titan</p>
+              <p className="text-xs">Tsugumi Ohba</p>
+              <p className="text-xl">Death Note</p>
             </div>
           </div>
         </div>
