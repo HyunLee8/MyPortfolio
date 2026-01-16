@@ -7,7 +7,8 @@ export default function Home() {
       <Link href="/" className="fixed bottom-10 font-bold">back</Link>
       <div className="flex flex-col justify-center">
         <p className="text-sm font-bold">ML@UVA</p>
-        <h1 className="text-xl mb-3 font-bold">Client Project Developer</h1>
+        <h1 className="text-xl font-bold">Client Project Developer</h1>
+        <p className="text-sm font-bold mb-3">Nov 2025 - Current</p>
         <div className="flex flex-col gap-4 max-w-50">
           <div>
             <p className="">Deploy real time gym occupancy tracking system</p>
@@ -22,7 +23,8 @@ export default function Home() {
       </div>
       <div className="flex flex-col justify-center">
         <p className="text-sm font-bold">Prime Academy Nova</p>
-        <h1 className="text-xl mb-3 font-bold">UX/UI Internship</h1>
+        <h1 className="text-xl font-bold">UX/UI Internship</h1>
+        <p className="text-sm font-bold mb-3">Nov 2023 - Feb 2024</p>
         <div className="flex flex-col gap-4 max-w-50">
           <div>
             <p className="">Ensured technical feasibility of design solutions</p>
