@@ -7,7 +7,7 @@ export default function Home() {
       <div className="relative grid grid-cols-5 w-screen items-center px-8">
         <Link href="about" className="text-center">About Me</Link>
         <Link href="experience" className="text-center">Experience</Link>
-        <Link href="https://github.com/HyunLee8" className="font-bold text-center">이현호</Link>
+        <Link href="photos" className="font-bold text-center">이현호</Link>
         <Link href="projects" className="text-center">Projects</Link>
         <Link href="socials" className="text-center">Socials</Link>
         
