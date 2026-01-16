@@ -18,7 +18,7 @@ export default function Home() {
               alt="plants" 
               className="w-full h-full object-cover"
               style={{
-                clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0, 30% 30%, 30% 70%, 70% 70%, 70% 30%, 30% 30%)"
+                clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0, 25% 25%, 25% 75%, 75% 75%, 75% 25%, 25% 25%)"
               }}
             />
           </div>
