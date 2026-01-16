@@ -69,8 +69,8 @@ export default function Home() {
               <p className="text-xl">Whiplash</p>
             </div>
             <div>
-              <p className="text-xs">Artic Monkeys</p>
-              <p className="text-xl">No.1 Party Anthem</p>
+              <p className="text-xs">Andrew Stanton</p>
+              <p className="text-xl">WALL-E</p>
             </div>
           </div>
         </div>
