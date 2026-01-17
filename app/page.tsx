@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="relative grid grid-cols-5 w-screen items-center px-8">
-        <Link href="about" className="text-center">About Me</Link>
+        <Link href="about" className="text-center">Favorites</Link>
         <Link href="experience" className="text-center">Experience</Link>
         <Link href="photos" className="font-bold text-center">이현호</Link>
-        <Link href="projects" className="text-center">Projects</Link>
+        <Link href="projects" className="text-center">Solo Projects</Link>
         <Link href="socials" className="text-center">Socials</Link>
         
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
