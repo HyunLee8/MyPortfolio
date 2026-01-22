@@ -14,8 +14,8 @@ export default function Home() {
               <p className="text-xl">여전히 아름다운지</p>
             </div>
             <div>
-              <p className="text-xs">800 Cherries</p>
-              <p className="text-xl">Through</p>
+              <p className="text-xs">The 1975</p>
+              <p className="text-xl">About You</p>
             </div>
             <div>
               <p className="text-xs">Artic Monkeys</p>
