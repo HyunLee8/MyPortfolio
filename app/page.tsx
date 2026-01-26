@@ -38,6 +38,9 @@ export default function Home() {
       <Link href="essentials" className="hover:underline">
         Essentials →
       </Link>
+      <Link href="links" className="hover:underline">
+        Links →
+      </Link>
     </div>
   )
 }
