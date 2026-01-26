@@ -43,7 +43,7 @@ export default function Essentials() {
               <p className="text-lg text-gray-700 font-medium">The 1975</p>
               <p className="text-xs text-gray-500 uppercase tracking-widest">Being Funny in a Foreign Language • 2017</p>
               <p className="text-gray-600 leading-relaxed mt-2">
-                I forget about this song every couple years
+                {"One of the best bridges I've ever heard"}
               </p>
             </div>
           </div>
