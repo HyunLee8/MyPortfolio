@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen p-8 bg-white">
-      <Link href="/" className="fixed bottom-10 left-10 font-medium text-sm hover:underline underline-offset-4 transition-all">
+      <Link href="/" className="fixed top-10 left-1/2 font-medium text-sm hover:underline underline-offset-4 transition-all">
         ← back
       </Link>
       
