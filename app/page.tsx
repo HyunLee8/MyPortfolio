@@ -1,6 +1,6 @@
 import Link from "next/link";
 import plants from "../public/plants.png";
-
+/*
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
@@ -26,4 +26,18 @@ export default function Home() {
       </div>
     </div>
   );
+}
+*/
+
+export default function Home() {
+  return (
+    <div className="flex flex-col justify-center items-center h-screen">
+      <div>
+        Projects
+      </div>
+      <Link href="projects">
+        →
+      </Link>
+    </div>
+  )
 }
