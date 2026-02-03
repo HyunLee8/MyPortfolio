@@ -31,9 +31,12 @@ export default function Home() {
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
+    <div className="flex flex-col justify-center items-center h-screen gap-5">
       <Link href="projects" className="hover:underline">
         Projects →
+      </Link>
+      <Link href="principles" className="hover:underline">
+        Principles →
       </Link>
       <Link href="essentials" className="hover:underline">
         Essentials →

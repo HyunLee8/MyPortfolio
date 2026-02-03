@@ -7,66 +7,105 @@ export default function Essentials() {
         ← back
       </Link>
       
-      <div className="max-w-5xl mx-auto py-20">
-        <h1 className="text-5xl text-gray-900 mb-12 tracking-tight">The Big Three</h1>
-        <div className="grid grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto py-20">
+        <div className="mb-20">
+          <h1 className="text-6xl font-light text-gray-900 mb-4 tracking-wide">Essentials</h1>
+          <div className="w-32 h-0.5 bg-gray-900"></div>
+        </div>
+        
+        <div className="space-y-24">
           <div className="group">
-            <div className="w-full aspect-square overflow-hidden border border-gray-200 shadow-lg mb-4">
-              <img 
-                src="/ESSENTIALS1.jpg" 
-                alt="Album cover 1"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            
-            <div className="flex flex-col space-y-2">
-              <h2 className="text-2xl font-bold text-gray-900 tracking-tight">여전히 아름다운지</h2>
-              <p className="text-lg text-gray-700 font-medium">TOY | Yoo Hee Yeol</p>
-              <p className="text-xs text-gray-500 uppercase tracking-widest">Fermata • 1999</p>
-              <p className="text-gray-600 leading-relaxed mt-2">
-                Yes. Best song since I was out of the womb 
-              </p>
+            <div className="grid grid-cols-5 gap-12 items-start">
+              <div className="col-span-2">
+                <div className="overflow-hidden border border-gray-200 shadow-lg">
+                  <img 
+                    src="/STUFF4.jpg" 
+                    alt="M4 Macbook Pro"
+                    className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              </div>
+              
+              <div className="col-span-3 pt-2">
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">Computing</p>
+                <h2 className="text-5xl font-bold text-gray-900 mb-4 tracking-tight">M4 Macbook Pro</h2>
+                <p className="text-xl text-gray-600 mb-6 italic">Work</p>
+                
+                <div className="border-l-2 border-gray-200 pl-6 group-hover:border-gray-900 transition-colors duration-300">
+                  <div className="flex gap-4 text-sm text-gray-500 font-mono mb-4">
+                    <span>20 CORE CPU</span>
+                    <span>•</span>
+                    <span>16 CORE GPU</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed text-[15px]">
+                    Everything comes in and out of here
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
           <div className="group">
-            <div className="w-full aspect-square overflow-hidden border border-gray-200 shadow-lg mb-4">
-              <img 
-                src="/ESSENTIALS2.png" 
-                alt="Album cover 2"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            
-            <div className="flex flex-col space-y-2">
-              <h2 className="text-2xl font-bold text-gray-900 tracking-tight">About You</h2>
-              <p className="text-lg text-gray-700 font-medium">The 1975</p>
-              <p className="text-xs text-gray-500 uppercase tracking-widest">Being Funny in a Foreign Language • 2017</p>
-              <p className="text-gray-600 leading-relaxed mt-2">
-                {"One of the best bridges I've ever heard"}
-              </p>
+            <div className="grid grid-cols-5 gap-12 items-start">
+              <div className="col-span-3 pt-2 order-1">
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">Audio</p>
+                <h2 className="text-5xl font-bold text-gray-900 mb-4 tracking-tight">Wired Lightnings</h2>
+                <p className="text-xl text-gray-600 mb-6 italic">Music</p>
+                
+                <div className="border-l-2 border-gray-200 pl-6 group-hover:border-gray-900 transition-colors duration-300">
+                  <div className="flex gap-4 text-sm text-gray-500 font-mono mb-4">
+                    <span>48KHZ</span>
+                    <span>•</span>
+                    <span>23OHM</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed text-[15px]">
+                    I obey to it
+                  </p>
+                </div>
+              </div>
+              
+              <div className="col-span-2 order-2">
+                <div className="overflow-hidden border border-gray-200 shadow-lg">
+                  <img 
+                    src="/STUFF1.jpg" 
+                    alt="Wired Lightnings"
+                    className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
           <div className="group">
-            <div className="w-full aspect-square overflow-hidden border border-gray-200 shadow-lg mb-4">
-              <img 
-                src="/ESSENTIALS3.jpg" 
-                alt="Album cover 3"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            
-            <div className="flex flex-col space-y-2">
-              <h2 className="text-2xl font-bold text-gray-900 tracking-tight">No. 1 Party Anthem</h2>
-              <p className="text-lg text-gray-700 font-medium">Artic Monkeys</p>
-              <p className="text-xs text-gray-500 uppercase tracking-widest">AM • 2013</p>
-              <p className="text-gray-600 leading-relaxed mt-2">
-                Genuinely has one of the best tempos
-              </p>
+            <div className="grid grid-cols-5 gap-12 items-start">
+              <div className="col-span-2">
+                <div className="overflow-hidden border border-gray-200 shadow-lg">
+                  <img 
+                    src="/STUFF3.jpg" 
+                    alt="Notebook & Pen"
+                    className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              </div>
+              
+              <div className="col-span-3 pt-2">
+                <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">Analog</p>
+                <h2 className="text-5xl font-bold text-gray-900 mb-4 tracking-tight">Notebook & Pen</h2>
+                <p className="text-xl text-gray-600 mb-6 italic">Journaling or Agenda</p>
+                
+                <div className="border-l-2 border-gray-200 pl-6 group-hover:border-gray-900 transition-colors duration-300">
+                  <div className="flex gap-4 text-sm text-gray-500 font-mono mb-4">
+                    <span>300 PAGES</span>
+                    <span>•</span>
+                    <span>LEATHER COVER</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed text-[15px]">
+                    I have goldfish ass memory
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
