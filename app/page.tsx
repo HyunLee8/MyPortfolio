@@ -39,7 +39,7 @@ export default function Home() {
         Principles →
       </Link>
       <Link href="essentials" className="hover:underline">
-        Essentials →
+        The Engine →
       </Link>
       <Link href="links" className="hover:underline">
         Links →

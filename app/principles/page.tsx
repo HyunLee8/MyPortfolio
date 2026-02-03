@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Principles() {
+export default function TheEngine() {
   return (
     <div className="min-h-screen p-8 bg-white">
       <Link href="/" className="fixed top-10 left-1/2 -translate-x-1/2 font-medium text-sm hover:underline underline-offset-4 transition-all z-50">
@@ -9,7 +9,7 @@ export default function Principles() {
       
       <div className="max-w-6xl mx-auto py-20">
         <div className="mb-20">
-          <h1 className="text-6xl font-light text-gray-900 mb-4 tracking-wide">Principles</h1>
+          <h1 className="text-6xl font-light text-gray-900 mb-4 tracking-wide">The Engine</h1>
           <div className="w-32 h-0.5 bg-gray-900"></div>
         </div>
         
