@@ -38,7 +38,7 @@ export default function Essentials() {
                     <span>16 CORE GPU</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed text-[15px]">
-                    Everything comes in and out of here
+                    Everything comes in and out
                   </p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ export default function Essentials() {
                     <span>23OHM</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed text-[15px]">
-                    I obey to it
+                    Obey to it
                   </p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function Essentials() {
                     <span>LEATHER COVER</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed text-[15px]">
-                    I have goldfish ass memory
+                    Goldfish Memory
                   </p>
                 </div>
               </div>
