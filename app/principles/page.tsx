@@ -278,7 +278,7 @@ export default function Principles() {
                 <p className="text-xs text-gray-500 uppercase tracking-widest mb-3">AM • 2013</p>
                 <div className="border-l-2 border-gray-200 pl-4 group-hover:border-gray-900 transition-colors duration-300">
                   <p className="text-gray-600 leading-relaxed text-sm">
-                    tempo and instrumental is wow
+                    opening tempo and instrumental is perfect
                   </p>
                 </div>
               </div>
