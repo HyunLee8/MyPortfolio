@@ -132,47 +132,6 @@ export default function Principles() {
             ))}
           </div>
         </div>
-
-        <div>
-          <div className="mb-12 sm:mb-20">
-            <h2 className="text-3xl sm:text-4xl font-light text-gray-900 mb-4 tracking-wide">Thematics</h2>
-            <div className="w-24 h-0.5 bg-gray-900"></div>
-          </div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-x-16 sm:gap-y-20">
-            {cinematography.map((film, index) => (
-              <div key={index} className="group">
-              <a 
-                href={film.url} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block overflow-hidden border border-gray-200 shadow-lg mb-6"
-              >
-                <img 
-                  src={film.image} 
-                  alt={`Film still from ${film.title}`}
-                  className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700"
-                />
-              </a>
-              
-              <div className="space-y-3">
-                <div className="flex items-baseline justify-between">
-                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-tight">{film.title}</h2>
-                </div>
-                <p className="text-base sm:text-lg text-gray-700 font-medium">{film.director}</p>
-                <div className="pt-2 border-t border-gray-200">
-                  <p className="text-xs text-gray-500 uppercase tracking-widest mb-3">{film.year}</p>
-                  <div className="border-l-2 border-gray-200 pl-4 group-hover:border-gray-900 transition-colors duration-300">
-                    <p className="text-gray-600 leading-relaxed text-sm">
-                      {film.note}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            ))}
-          </div>
-        </div>
       </div>
     </div>
   );
