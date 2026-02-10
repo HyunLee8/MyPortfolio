@@ -11,12 +11,12 @@ const songs = [
     url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak"
   },
   {
-    title: "Everlasting Love",
-    artist: "LEEHEESANG",
-    album: "HOWEVER",
-    year: "2023",
-    image: "/ESSENTIALS7.jpeg",
-    note: "Tie w/ No.1 Party Anthem",
+    title: "Defender (Live)",
+    artist: "Upper Room",
+    album: "Moments",
+    year: "2018",
+    image: "/DEFENDER.png",
+    note: "Selah",
     url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak"
   },
   {
@@ -57,33 +57,6 @@ const songs = [
   }
 ];
 
-const cinematography = [
-  {
-    title: "Neon Genesis Evangelion",
-    director: "Hideaki Anno",
-    year: "1997",
-    image: "/THEMES5.jpg",
-    note: "I hate shinji",
-    url: "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion"
-  },
-  {
-    title: "Vinland Saga",
-    director: "Makoto Yukimura",
-    year: "2005",
-    image: "/THEMES7.jpg",
-    note: "Realism and Dynamism",
-    url: "https://en.wikipedia.org/wiki/Vinland_Saga_(manga)"
-  },
-  {
-    title: "The Climber",
-    director: "Shin-ichi Sakamoto,",
-    year: "2007",
-    image: "/THEMES6.jpg",
-    note: "Current read -- Pacing is mediocre but insane world building",
-    url: "https://en.wikipedia.org/wiki/The_Climber_(manga)"
-  },
-];
-
 export default function Principles() {
   return (
     <div className="min-h-screen p-4 sm:p-8 bg-white">
@@ -98,7 +71,7 @@ export default function Principles() {
             <div className="w-24 h-0.5 bg-gray-900"></div>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-x-16 sm:gap-y-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 sm:gap-x-16 sm:gap-y-20">
             {songs.map((song, index) => (
               <div key={index} className="group">
                 <a 
