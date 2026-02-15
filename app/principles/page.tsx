@@ -11,24 +11,6 @@ const songs = [
     url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak"
   },
   {
-    title: "Defender (Live)",
-    artist: "Upper Room",
-    album: "Moments",
-    year: "2018",
-    image: "/DEFENDER.png",
-    note: "Selah",
-    url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak"
-  },
-  {
-    title: "Stars burn out",
-    artist: "Cykim",
-    album: "Stars Burn out",
-    year: "2023",
-    image: "/ESSENTIALS6.jpeg",
-    note: "Current no. 1",
-    url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak6"
-  },
-  {
     title: "About You",
     artist: "The 1975",
     album: "Being Funny in a Foreign Language",
@@ -42,19 +24,37 @@ const songs = [
     artist: <><span className="text-red-500">TOY</span> | Yoo Hee Yeol</>,
     album: "Fermata",
     year: "1999",
-    image: "/ESSENTIALS1.jpg",
+    image: "/TOY1.jpg",
     note: <><span className="text-gray-900 font-medium">crème de la crème</span> | All time no. 1</>,
     url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak"
   },
   {
+    title: "Back To Me",
+    artist: "The Marias",
+    album: "Back To Me",
+    year: "2025",
+    image: "/BACKTOME.jpg",
+    note: "Holy Elec",
+    url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak"
+  },
+  {
+    title: "Stars burn out",
+    artist: "Cykim",
+    album: "Stars Burn out",
+    year: "2023",
+    image: "/ESSENTIALS6.jpeg",
+    note: "yes",
+    url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak6"
+  },
+  {
     title: "Lily of the Valley",
     artist: "DANIEL",
-    album: "Melancholia",
+    album: "Flower",
     year: "2021",
     image: "/ESSENTIALS5.jpeg",
-    note: "Mid summers",
+    note: "Selah",
     url: "https://open.spotify.com/playlist/0RzkIyS7OHaEBcpDYZ8Wak"
-  }
+  },
 ];
 
 export default function Principles() {
